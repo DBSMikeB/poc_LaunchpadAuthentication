@@ -1,0 +1,19 @@
+# Common properties
+spring:
+  profiles:
+    active: default-user
+logging:
+  level:
+    org:
+      springframework: ERROR
+---
+spring:
+  profiles: default-user
+jwt:
+  secret: javainuse
+server:
+  port: 8181
+credentials:
+  default:
+    username: LAUNCHPAD_ADMIN_1, Reviewer, Submitter, User
+    password: password1
