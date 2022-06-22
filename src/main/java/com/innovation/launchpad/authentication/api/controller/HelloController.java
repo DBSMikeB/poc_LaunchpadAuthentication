@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String Hello(@RequestParam(required = false) String title) {
-        return "Greetings from Spring Boot! updated from ci/cd";
+        return "Greetings from Spring Boot! updated from ci/cd again";
     }
 
 
